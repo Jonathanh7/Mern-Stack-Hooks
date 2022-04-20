@@ -4,12 +4,12 @@ const ItemForm = ({item, handleSubmit, handleChange, cancelPath}) => {
         <form onSubmit={(e) => handleSubmit(e)}>
             <label>Title</label>
             <input
-            placeholder="A vetted item"
+            placeholder="item to input"
             defaultValue={item.title}
             name="title"
             onChange={(e) => handleChange(e)} />
             <input
-            placeholder="http://coolstuff.com"
+            placeholder="http://coolstuff.io"
             defaultValue={item.link}
             name="link"
             onChange={(e) => handleChange(e)} />

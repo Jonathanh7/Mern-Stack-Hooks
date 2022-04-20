@@ -29,12 +29,5 @@ function App() {
   );
 }
 
-// function withRouter(Child) {
-//   return function withRouter(props) {
-//     const location = useLocation()
-
-//     return <Child {...props} location={location} />
-//   }
-// }
 
 export default App;
